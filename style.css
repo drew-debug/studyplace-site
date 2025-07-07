@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f8;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background: #dfe6e9;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.subjects {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.subject {
+  display: inline-block;
+  background: #74b9ff;
+  color: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.subject:hover {
+  background: #0984e3;
+}

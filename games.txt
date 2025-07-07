@@ -1,0 +1,8 @@
+/studyplace-site
+├── index.html
+├── style.css
+└── games/
+    ├── doom.html
+    ├── snake.html
+    ├── tetris.html
+    └── pacman.html
